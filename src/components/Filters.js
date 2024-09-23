@@ -10,6 +10,7 @@ const Filters = () => {
   } = CartState();
   console.log(byStock, byFastDelivery, sort, byRating);
   console.log("Adding new console", byStock, byFastDelivery, sort, byRating);
+  console.log("Name")
   return (
     <div className="filters">
       <span className="title">Filter Products </span>
